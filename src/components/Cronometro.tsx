@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import styles from "./styles/Cronometro.module.css"; // Importando o CSS Module
 
 export function Cronometro() {
   const [time, setTime] = useState(0);
@@ -30,7 +31,7 @@ export function Cronometro() {
   }
 
   return (
-    <div>
+    <div className={styles.cronometroContainer}>
       <h2>Cronômetro</h2>
       <p>{formatarTempo(time)}</p>
       <button onClick={iniciar}>Iniciar</button>

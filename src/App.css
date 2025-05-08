@@ -1,10 +1,14 @@
 body.light {
-    background-color: white;
-    color: black;
-  }
-  
-  body.dark {
-    background-color: #111;
-    color: white;
-  }
-  
+  background-color: white;
+  color: black;
+}
+
+body.dark {
+  background-color: #111;
+  color: white;
+}
+
+
+div {
+  margin-bottom: 20px;
+}

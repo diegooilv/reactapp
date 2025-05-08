@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import styles from "./styles/Relogio.module.css"; // Importando o CSS Module
 
 export function Relogio() {
   const [horario, setHorario] = useState(getHorarioAtual());
@@ -11,7 +12,7 @@ export function Relogio() {
   }, []);
 
   return (
-    <div>
+    <div className={styles.relogioContainer}>
       <h2>Horario Atual</h2>
       <p>{horario}</p>
     </div>

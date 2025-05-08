@@ -1,4 +1,5 @@
 import { useState } from "react";
+import styles from "./styles/Lang.module.css"; // Importando o CSS Module
 
 type Idioma = "pt" | "en";
 
@@ -21,8 +22,8 @@ export function Lang() {
   };
 
   return (
-    <div className="container">
-      <p className={lang === "pt" ? "texto-pt" : "texto-en"}>
+    <div className={styles.container}>
+      <p className={lang === "pt" ? styles.textoPt : styles.textoEn}>
         {textos[lang].saudacao}
       </p>
       <button onClick={toggleLang}>{textos[lang].botao}</button>

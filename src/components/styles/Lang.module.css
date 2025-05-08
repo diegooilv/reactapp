@@ -1,0 +1,40 @@
+/* Estilos para o Lang */
+.container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.texto-pt {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.texto-en {
+    font-size: 1.5em;
+    color: #333;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    background-color: #388e3c;
+}

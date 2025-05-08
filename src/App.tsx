@@ -4,6 +4,7 @@ import { Tema } from "./components/Tema";
 import { Lang } from "./components/MudarIdioma";
 import { Relogio } from "./components/Relogio";
 import { Cronometro } from "./components/Cronometro";
+import { MiniCalculadora } from "./components/MiniCalculadora";
 function App() {
   return (
     <>
@@ -20,6 +21,9 @@ function App() {
       </div>
       <div>
         <Cronometro />
+      </div>
+      <div>
+        <MiniCalculadora />
       </div>
     </>
   );

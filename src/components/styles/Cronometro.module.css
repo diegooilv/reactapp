@@ -1,0 +1,43 @@
+/* Estilos para o Cronômetro */
+.cronometroContainer {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.cronometroContainer h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.cronometroContainer p {
+    font-size: 2.5em;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.cronometroContainer button {
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cronometroContainer button:hover {
+    background-color: #45a049;
+}
+
+.cronometroContainer button:active {
+    background-color: #388e3c;
+}

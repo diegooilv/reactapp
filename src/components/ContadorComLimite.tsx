@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "./Botao.module.css";
+import styles from "./styles/Botao.module.css";
 
 interface ContadorComLimiteProps {
   valor?: number;
