@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import styles from "./styles/Botao.module.css";
 
 export function Tema() {
   const [tema, setTema] = useState<"light" | "dark">("light");
@@ -12,7 +13,10 @@ export function Tema() {
   return (
     <div>
       <p>Tema atual: {tema}</p>
-      <button onClick={alterarTema}>Alterar Tema</button>
+      <button onClick={alterarTema} className={styles.botao}>
+        {" "}
+        Alterar Tema
+      </button>
     </div>
   );
 }

@@ -2,7 +2,7 @@
 .container {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #fff;
+
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -19,7 +19,7 @@
     color: #333;
 }
 
-button {
+.button {
     width: 200px;
     height: 40px;
     margin-top: 10px;
@@ -31,10 +31,10 @@ button {
     transition: background-color 0.3s;
 }
 
-button:hover {
+.button:hover {
     background-color: #45a049;
 }
 
-button:active {
+.button:active {
     background-color: #388e3c;
 }

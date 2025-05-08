@@ -1,0 +1,23 @@
+.button {
+    margin: 0 4px;
+    background: none;
+    width: 55px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.buttonSelected {
+    background-color: #ffd700;
+    /* Cor dourada suave para seleção */
+    color: white;
+    /* Cor da estrela quando selecionada */
+}
+
+.titulo {
+    text-align: center;
+}
+
+.container {
+    width: 330px;
+}

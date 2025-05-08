@@ -12,7 +12,7 @@ export function Lang() {
       botao: "Mudar para Inglês",
     },
     en: {
-      saudacao: "Hello, User!",
+      saudacao: "Hello User!",
       botao: "Switch to Portuguese",
     },
   };
@@ -26,7 +26,9 @@ export function Lang() {
       <p className={lang === "pt" ? styles.textoPt : styles.textoEn}>
         {textos[lang].saudacao}
       </p>
-      <button onClick={toggleLang}>{textos[lang].botao}</button>
+      <button onClick={toggleLang} className={styles.button}>
+        {textos[lang].botao}
+      </button>
     </div>
   );
 }
