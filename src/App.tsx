@@ -7,6 +7,7 @@ import { Cronometro } from "./components/Cronometro";
 import { MiniCalculadora } from "./components/MiniCalculadora";
 import { List } from "./components/List"
 import { Avaliacao } from "./components/Avaliação";
+import { Alerta } from "./components/Alerta";
 function App() {
   return (
     <>
@@ -32,6 +33,9 @@ function App() {
       </div>
       <div>
         <Avaliacao/>
+      </div>
+      <div>
+        <Alerta/>
       </div>
     </>
   );
